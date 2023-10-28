@@ -1,6 +1,12 @@
+<div style="position: relative;">
+  <%= image_tag "girl-1822525_1280.jpg", alt: "Sample Image", class: "avatar", size: "100x100" %>
+  <p style="position: absolute; top: 0; left: 0;"></p>
+</div>
+
+
 <p style="color: green"><%= notice %></p>
 
-<%= render @frend1 %>
+<%= render 'form', frend1: @frend1 %>
 
 <div>
   <%= link_to "Edit this frend1", edit_frend1_path(@frend1) %> |
